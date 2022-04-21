@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  position: sticky;
+  color: #fff;
+}
+
+/* for json form */
+#json {
+  background-color: #111;
+}
+
+#spotifyBlock {
+  width: 100%;
+  height: 100vh;
+}
+#spotifyBlock article {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #3a4f41;
+}
+#spotifyBlock article form {
+  width: 650px;
+  height: 1100px;
+  /* background-color: rgb(110, 105, 105); */
+}
+.form-group {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.form-group a {
+  color: var(--text-bright-accent, #117a37);
+}
+.form-group label {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.form-group input {
+  height: 50px;
+}
+
+.date-div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  font-weight: bold;
+}
+.date-div input {
+  width: 100px;
+  height: 50px;
+}
+.date-div span {
+  padding: 5px 0px;
+}
+
+.gender-inp {
+  padding-top: 20px 0px;
+}
+
+.check1 {
+  padding: 15px 0px;
+}
+.check2 {
+  width: 250px;
+  height: 80px;
+  border: 1px solid;
+}
+.para-line p {
+  text-align: center;
+  color: #111;
+  padding: 10px 0px;
+}
+.para-line p a {
+  color: #1ed760;
+}
+
+.form-btn {
+  padding: 20px 55px;
+  background-color: #1ed760;
+  border-radius: 60px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  outline: 3px solid #111;
+  outline-offset: 3px;
+  display: block;
+  position: relative;
+  top: 20px;
+  left: 180px;
+}
+.form-btn:hover {
+  transform: scale(1.05);
+}
+
+/* employee form */
+/* .form-group-skill #Uskills{
+   display: inline-block;
+   align-items: center;
+   justify-content: space-between;  */
+
+/* }
+
+.form-group-skill label{
+    padding-right:15px;
+}
+.btn input{
+    padding: 15px 65px;
+    position: relative;
+    left: 240px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 70px;
+    background-color: #13542b;
+}  */
+
+/* wemployee form fetching from local storag */
+
+/* .empSec {
+  width: 100%;
+  background-color: #111;
+}
+.empSec article {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 2px solid;
+}
+.empSec form {
+  padding: 10px;
+  width: 550px;
+}
+.emp-div input {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid grey;
+  color: white;
+  padding: 14px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  background-color: rgba(197, 197, 197, 0.51);
+  color: black;
+  font-weight: bold;
+}
+.empSec select {
+  width: 100%;
+  padding: 14px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.skills input {
+  margin-left: 15px;
+  margin-right: 2px;
+}
+.skills {
+  margin-bottom: 10px;
+}
+.expr input {
+  margin-left: 15px;
+  margin-right: 2px;
+}
+.btn button {
+  padding: 16px 48px;
+  border-radius: 50px;
+  position: relative;
+  left: 15%;
+ background-color: rgb(180, 171, 17);
+  color: black;
+  border: none;
+  font-weight: bold;
+  transition-property: width;
+}
+.btn button:hover{
+  width: 150px;
+  transition-duration: 5s;
+  transition-delay: 2s;
+  transition-timing-function: linear;
+  color: #fff;
+}
+.dob input {
+  width: 100%;
+  color: black;
+  padding: 14px;
+  background-color: rgba(197, 197, 197, 0.51);
+}
+label {
+  font-weight: bold;
+}
+input::placeholder {
+  color: yellow;
+  font-weight: 700;
+  font-size: 10px;
+}
+.btn1 button {
+  padding: 16px 48px;
+  margin-top: 10px;
+  border-radius: 50px;
+  position: relative;
+  left: 58%;
+  bottom: 56px;
+  background-color: rgb(180, 171, 17);
+  color: black;
+  border: none;
+  font-weight: bold;
+   transition-property: width;
+}
+.btn1 button:hover{
+  width: 153px;
+  transition-duration: 5s;
+  transition-delay: 2s;
+  transition-timing-function: linear;
+  color: #fff;
+}
+
+.emp-div select{
+    background-color:rgba(197, 197, 197, 0.51); ;
+}
+.emp-div select option{
+    background-color:rgba(197, 197, 197, 0.51); ;
+}
+.emp-edu option{
+    background-color:rgba(197, 197, 197, 0.51); ;
+} */
